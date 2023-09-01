@@ -1,0 +1,25 @@
+# Dependencias
+node_modules/
+
+# Archivos de registro
+logs/
+*.log
+
+# Archivos de compilación
+dist/
+build/
+out/
+
+# Archivos de configuración
+.env
+config.js
+
+# Archivos de respaldo
+*.bak
+*.backup
+*.swp
+
+# Archivos de caché
+.cache/
+.npm/
+.yarn/
