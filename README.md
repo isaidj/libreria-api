@@ -3,6 +3,22 @@
 ## Descripción
 
 Este es un API server desarrollado en Node.js y Express para gestionar una librería. Permite realizar operaciones relacionadas con libros, clientes, pedidos y libreros. La base de datos se gestiona mediante MySQL.
+Para este proyecto no se utilizó la estructura (Modelo-Vista-Controlador) MVC, sino que se priorizó la simplicidad ya que es para una explicación de un curso.
+
+## Requisitos de conocimientos
+
+- JavaScript básico.
+
+## Requisitos de software
+
+- Node.js
+- MySQL
+- Git (opcional)
+- Visual Studio Code (opcional)
+- MySQL Workbench (opcional)
+- XAMPP (opcional)
+- Nodemon (opcional)
+- Postman (opcional)
 
 ## Instalación
 

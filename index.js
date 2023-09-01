@@ -3,7 +3,8 @@ const express = require("express");
 
 // Importamos el módulo mysql: para conectarnos a la base de datos
 const mysql = require("mysql");
-
+// Importamos el módulo cors: para permitir peticiones desde otros dominios
+const cors = require("cors");
 // Importamos los módulos que contienen las rutas para cada entidad
 const libros = require("./query/libros");
 const clientes = require("./query/clientes");
@@ -36,6 +37,8 @@ db.getConnection((err) => {
 });
 
 global.db = db;
+
+app.use(cors());
 
 // Asociamos las rutas de cada entidad a la ruta "/api"
 app.use("/api", libros);
